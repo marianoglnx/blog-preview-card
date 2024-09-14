@@ -1,0 +1,82 @@
+html, body {
+    width: 100%; height: 100%;
+}
+
+body {
+    background-color: #f4d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    width: 85%;
+    max-width: 450px;
+    min-width: 280px;
+    border-radius: 15px;
+    padding: 30px;
+    border: 1px solid black;
+    box-shadow: 8px 8px 0px black;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 15px 15px 0px black;
+}
+
+.flyer { width: 100%; }
+
+.flyer img {
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    margin: 20px 0px;
+    
+}
+
+.learning {
+    background-color: #f4d04e;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Figtree-extrabold';
+}
+
+.date {
+    margin-top: 10px;
+    font-family: 'Figtree-medium';
+}
+
+.text h1 {
+    margin-bottom: 20px;
+    font-family: 'Figtree-extrabold';
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.text h1:hover {
+    color: #f4d04e;
+}
+
+.text p {
+    font-family: 'Figtree-regular';
+    color: #808080;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.card .user {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+.user img {
+    width: 30px;
+    margin-right: 15px;
+}
